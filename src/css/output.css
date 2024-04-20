@@ -1014,6 +1014,10 @@ video {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+  .md\:gap-y-11 {
+    row-gap: 2.75rem;
+  }
+
   .md\:gap-y-20 {
     row-gap: 5rem;
   }
