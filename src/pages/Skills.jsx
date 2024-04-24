@@ -8,6 +8,8 @@ import { SiMongodb } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
+import { GrGraphQl } from "react-icons/gr";
+import { BiLogoTypescript } from "react-icons/bi";
 
 export const Skills = () => {
   return (
@@ -31,7 +33,9 @@ export const Skills = () => {
         </div>
         <div className="flex items-center rounded-xl py-0.5 bg-[white] justify-center shadow-2xl flex-col w-70 max-w-72">
           <SiExpress className="text-[7rem] sm:text-[10rem] lg:text-[12rem]" />
-          <p className="text-xl sm:text-2xl md:text-3xl my-2 sm:my-4">ExpressJS</p>
+          <p className="text-xl sm:text-2xl md:text-3xl my-2 sm:my-4">
+            ExpressJS
+          </p>
         </div>
         <div className="flex items-center rounded-xl py-0.5 bg-[white] justify-center shadow-2xl flex-col w-70 max-w-72">
           <BsFiletypeSql className="text-[7rem] sm:text-[10rem] lg:text-[12rem]" />
@@ -39,19 +43,37 @@ export const Skills = () => {
         </div>
         <div className="flex items-center rounded-xl py-0.5 bg-[white] justify-center shadow-2xl flex-col w-70 max-w-72">
           <SiMongodb className="text-[7rem] sm:text-[10rem] lg:text-[12rem]" />
-          <p className="text-xl sm:text-2xl md:text-3xl my-2 sm:my-4">MongoDB</p>
+          <p className="text-xl sm:text-2xl md:text-3xl my-2 sm:my-4">
+            MongoDB
+          </p>
         </div>
         <div className="flex items-center rounded-xl py-0.5 bg-[white] justify-center shadow-2xl flex-col w-70 max-w-72">
           <FaReact className="text-[7rem] sm:text-[10rem] lg:text-[12rem]" />
-          <p className="text-xl sm:text-2xl md:text-3xl my-2 sm:my-4">ReactJS</p>
+          <p className="text-xl sm:text-2xl md:text-3xl my-2 sm:my-4">
+            ReactJS
+          </p>
         </div>
-        {/* <div className="flex items-center rounded-xl py-0.5 bg-[white] justify-center shadow-2xl flex-col w-70 max-w-72">
+        <div className="flex items-center rounded-xl py-0.5 bg-[white] justify-center shadow-2xl flex-col w-70 max-w-72">
           <SiNextdotjs className="text-[7rem] sm:text-[10rem] lg:text-[12rem]" />
           <p className="text-xl sm:text-2xl md:text-3xl my-2 sm:my-4">NextJS</p>
-        </div> */}
+        </div>
         <div className="flex items-center rounded-xl py-0.5 bg-[white] justify-center shadow-2xl flex-col w-70 max-w-72">
           <SiTailwindcss className="text-[7rem] sm:text-[10rem] lg:text-[12rem]" />
-          <p className="text-xl sm:text-2xl md:text-3xl my-2 sm:my-4">TailwindCSS</p>
+          <p className="text-xl sm:text-2xl md:text-3xl my-2 sm:my-4">
+            TailwindCSS
+          </p>
+        </div>
+        <div className="flex items-center rounded-xl py-0.5 bg-[white] justify-center shadow-2xl flex-col w-70 max-w-72">
+          <GrGraphQl className="text-[7rem] sm:text-[10rem] lg:text-[12rem]" />
+          <p className="text-xl sm:text-2xl md:text-3xl my-2 sm:my-4">
+            GraphQL
+          </p>
+        </div>
+        <div className="flex items-center rounded-xl py-0.5 bg-[white] justify-center shadow-2xl flex-col w-70 max-w-72">
+          <BiLogoTypescript className="text-[7rem] sm:text-[10rem] lg:text-[12rem]" />
+          <p className="text-xl sm:text-2xl md:text-3xl my-2 sm:my-4">
+            TypeScript
+          </p>
         </div>
       </div>
     </div>
