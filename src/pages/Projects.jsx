@@ -30,7 +30,7 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-center rounded-xl py-0.5 bg-white justify-center overflow-hidden shadow-2xl flex-col w-full">
+        {/* <div className="flex items-center rounded-xl py-0.5 bg-white justify-center overflow-hidden shadow-2xl flex-col w-full">
           <img src={chatHere} alt="chat-HERE project" className="bg-cover" />
           <div className="text-xl sm:text-2xl md:text-3xl my-2 sm:my-4">
             <div className="flex space-x-3">
@@ -50,7 +50,7 @@ export const Projects = () => {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="flex items-center rounded-xl py-0.5 bg-white justify-center overflow-hidden shadow-2xl flex-col w-full">
           <img src={goto80} alt="go-to-80-game" className="bg-cover" />
           <div className="text-xl sm:text-2xl md:text-3xl my-2 sm:my-4">
@@ -72,7 +72,7 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-center rounded-xl py-0.5 bg-white justify-center overflow-hidden shadow-2xl flex-col w-full">
+        {/* <div className="flex items-center rounded-xl py-0.5 bg-white justify-center overflow-hidden shadow-2xl flex-col w-full">
           <img src={usersImg} alt="users-project" className="bg-cover" />
           <div className="text-xl sm:text-2xl md:text-3xl my-2 sm:my-4">
             <div className="flex space-x-3">
@@ -92,7 +92,7 @@ export const Projects = () => {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="flex items-center rounded-xl py-0.5 bg-white justify-center overflow-hidden shadow-2xl flex-col w-full">
           <img
             src={findCountryImg}
