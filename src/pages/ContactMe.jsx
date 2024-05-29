@@ -8,7 +8,7 @@ export const ContactMe = () => {
         <h1 className="text-2xl">Hi!</h1>
       </div>
 
-      <p className="text-lg sm:text-3xl mt-4">{"Email: ranjancode09@gmail.com"}</p>
+      <p className="text-lg sm:text-3xl mt-4">{"Email: rk0936626@gmail.com"}</p>
     </div>
   );
 };
